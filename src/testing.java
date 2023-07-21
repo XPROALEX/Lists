@@ -26,5 +26,8 @@ public class testing {
         kingsOfRome.add("Servio Tullio");
         kingsOfRome.add("Tarquinio il Superbo");
         System.out.println(kingsOfRome);
+        String [] kingsOfRomeArray= kingsOfRome.toArray(new String[0]);
+        kingsOfRomeArray[6]="Lucius Tarquinius Supercar";
+        System.out.println(Arrays.toString(kingsOfRomeArray));
     }
         }
