@@ -17,5 +17,14 @@ public class testing {
         //System.out.println(cityNames);//usando il comando Arrays.asList creaiamo una lista con un numerico ben  definito
         cityNames.set(1,"Tegucigalpa");
         System.out.println(cityNames);
+        List<String>kingsOfRome = new ArrayList<>();
+        kingsOfRome.add("Romolo");
+        kingsOfRome.add("Numa Pompilio");
+        kingsOfRome.add("Tullo Ostilio");
+        kingsOfRome.add("Anco Marzio");
+        kingsOfRome.add("Tarquinio Prisco");
+        kingsOfRome.add("Servio Tullio");
+        kingsOfRome.add("Tarquinio il Superbo");
+        System.out.println(kingsOfRome);
     }
         }
